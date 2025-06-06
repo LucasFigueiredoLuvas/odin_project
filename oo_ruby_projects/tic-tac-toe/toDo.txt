@@ -1,0 +1,25 @@
+
+1 - O app mostra uma mensagem inicial por 3 segundos
+informando que está escolhendo as peças para cada
+jogador.
+
+2 - O app mostra o tabuleiro, que contem a estrutura
+do jogo da velha, e abaixo exibe uma mensagem solicitando
+que o jogador escolha uma posição (um inteiro de 1 à 9).
+
+3 - Após escolhe a opção o jogo verifica se está ocupada
+e caso verdadeiro, mostra uma mensagem de erro, pedindo
+para tentar novamente, caso contrário ele insere a peça
+na posição escolhida dentro do tabuleiro.
+
+4 - Passa a vez para o próximo jogador, que repete o passo
+'3'.
+
+5 - Quando todas as posições estiverem ocupadas, verifica
+se há um vencedor, e quem é este.
+
+Entidades:
+
+Game - Responsável por iniciar o jogo, analisar as jogadas
+Display - Responsável por mostrar o tabuleiro e as mensagens
+Player - Responsável por armazenar a peça, identificador (númeor)
